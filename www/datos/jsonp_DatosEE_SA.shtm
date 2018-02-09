@@ -1,0 +1,29 @@
+<%#VarSSI,callback%>(
+{   "B1":   {   "Est":<%#TagSSI,PV_Est_B1%>,
+                "Temp":<%#TagSSI,EE_TempB1%>    },
+    "B2":   {   "Est":<%#TagSSI,PV_Est_B2%>,
+                "Temp":<%#TagSSI,EE_TempB2%>    },
+    "B3":   {   "Est":<%#TagSSI,PV_Est_B3%>,     
+                "Temp":<%#TagSSI,EE_TempB3%>    },
+    "B4":   {   "Est":<%#TagSSI,PV_Est_B4%>,      
+                "Temp":<%#TagSSI,EE_TempB4%>    },
+    "B5":   {   "Est":<%#TagSSI,PV_Est_B1P%>,        
+                "Temp":<%#TagSSI,EE_TempB5%>    },
+    "B6":   {   "Est":<%#TagSSI,PV_Est_B2P%>,      
+                "Temp":<%#TagSSI,EE_TempB6%>    },
+    "B7":   {   "Est":<%#TagSSI,PV_Est_B3P%>     },
+
+    "AccyDif":<%#TagSSI,EE_AccyDif%>,
+    "Selecciones":<%#TagSSI,EE_Selecciones%>,
+    "Comunes":{ "EstAlj":<%#TagSSI,EE_EstAlj%>,
+                "Trafo":<%#TagSSI,EE_TT%>,
+                "RotTub":<%#TagSSI,EE_RotTub%>     },
+    "Fecha":[<%#TagSSI,PLCAno%>,<%#TagSSI,PLCMes%>,<%#TagSSI,PLCDia%>,<%#TagSSI,PLCHor%>,<%#TagSSI,PLCMin%>,<%#TagSSI,PLCSeg%>]
+}
+);
+
+
+
+     
+                  
+                

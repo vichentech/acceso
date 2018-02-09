@@ -1,0 +1,69 @@
+{        
+        "B1": { "Estado": 3,
+            "Temp": 69,
+            "Rpm": 1285,
+            "Hrs": 2334,
+            "Kw": 663
+        },
+        "B2": { "Estado": 3,
+            "Temp": 81,
+            "Hrs": 2334,
+            "Kw": 663
+        },
+        "B3": { "Estado": 3,
+            "Temp": 67,
+            "Hrs": 2334,
+            "Kw": 663
+        },
+        "B4": { "Estado": 3,
+            "Temp": 50,
+            "Hrs": 2334,
+            "Kw": 663
+        },
+        "B5": { "Estado": 1,
+            "Q": 0.2333234,
+            "FalloQ": 1,
+            "PAsp": 43,
+            "Temp": 34,
+            "Rpm": 1385,
+            "Hrs": 2334,
+            "Kw": 245
+        },
+        "B6": { "Estado": 2,
+            "Q": 234,
+            "FalloQ": 0,
+            "PAsp": 43,
+            "Temp": 99,
+            "Hrs": 8644,
+            "Kw": 143
+        },
+        "B7": { "Estado": 3,
+            "Q": 234.987,
+            "FalloQ": 0,
+            "PAsp": 43,
+            "Temp": 28,
+            "Hrs": 2334,
+            "Kw": 663
+        },
+        "Pozos": { "QTot": 660 },
+        "Aljibe": { "QTot": 650,
+            "FalloQTot": 0,
+            "Niv": 60,
+            "Prog_PAspMin": 15,
+            "Prog_PAspMax": 90
+        },
+        "PImp": { "Valor": 145,
+            "Fallo": 0,
+            "Sobrepresion":0
+        },
+        "Balsa": { "Nivel": 50,
+            "Objetivo": 95
+        },
+        "Periodo": {  "Permiso": 1,
+                    "Per": 4
+        },
+        "Modo": 2,
+        "Fecha": [2013,1,9,17,25,2],
+        "Bombeo": {   "PotTot": 560,
+                    "Estado":2 }
+    }

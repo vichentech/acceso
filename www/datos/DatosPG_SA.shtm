@@ -1,0 +1,9 @@
+{   "Estado":<%#TagSSI,PV_Estado%>,
+    "ObjetivoBalsa": <%#TagSSI,ObjetivoBalsa%>,
+    "NivAljibe": <%#TagSSI,NivAljibe%>,
+    "PAspPoz": [<%#TagSSI,PAspPoz1%>,<%#TagSSI,PAspPoz2%>,<%#TagSSI,PAspPoz3%>],
+    "Prog_TipoRegulacion":<%#TagSSI,Prog_TipoRegulacion%>,
+    "PermisoSMSInt":<%#TagSSI,PermisoSMSInt%>,
+    "PermisoSMS":<%#TagSSI,PermisoSMS%>,
+    "Fecha":[<%#TagSSI,PLCAno%>,<%#TagSSI,PLCMes%>,<%#TagSSI,PLCDia%>,<%#TagSSI,PLCHor%>,<%#TagSSI,PLCMin%>,<%#TagSSI,PLCSeg%>]
+}

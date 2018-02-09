@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Programaciones</title>
+<script type="text/javascript">
+    function enviaMsg(){
+        parent.postMessage("Conexion OK", "*");
+    }    
+    if (window.addEventListener){
+        window.addEventListener('message', receiver, false);
+    } else if (window.attachEvent){
+        window.attachEvent('onmessage', receiver);
+    }
+    function receiver(e){
+        if (e.data == 'Conectar'){
+            e.source.postMessage('Conexion OK', e.origin);
+        }else{
+            document.getElementById('PG_quevalor').value = e.data;
+            document.getElementById('formPG').submit();
+        }
+    }
+</script> 
+</head>
+<body onload="enviaMsg();" style="background-color: #00DD00;">
+    <form name="formPG" id="formPG" method="POST" action="/rcgi.bin/ExeScriptForm"> 
+        <input type="hidden" id="PG_quevalor" name="Command" value="">
+        <input type="hidden" name="ResultPageOk" value="usr/formPG.html">
+    </form>
+</body>
+</html>

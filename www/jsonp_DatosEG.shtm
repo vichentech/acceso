@@ -1,0 +1,5 @@
+<%#VarSSI,callback%>(
+{   
+    "Fecha":[<%#TagSSI,PLCAno%>,<%#TagSSI,PLCMes%>,<%#TagSSI,PLCDia%>,<%#TagSSI,PLCHora%>,<%#TagSSI,PLCMin%>,<%#TagSSI,PLCSeg%>]
+}
+);
